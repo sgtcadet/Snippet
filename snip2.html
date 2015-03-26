@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html><!--Howard Grant-->
+<head>
+<meta charset="utf-8">
+<title>Snip2</title>
+<style type="text/css">
+h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#382c27;
+	}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.wrapper {
+	width:1024px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	position:relative; /*allows image to be in relation to wrapper
+			for positioning,wrapper is a parent element*/
+}
+article{
+	position:relative;
+	width:950px;
+	height:500px;
+	padding:10px;
+}
+#projects {
+	position:absolute;
+	top:0px;
+	left:400px;
+	width:550px;
+	padding:10px
+}
+img{
+	float:left;
+	width:150px;
+	heigh:100px;
+	margin:5px;
+	margin-left:0px;
+	padding-right:25px;
+	padding-bottom:10px;
+}
+ul > li {
+	color:#00336a;
+}/*allows custom bulletin color*/
+ul > li > span {
+	color:#382c27;
+}/*allows list contents to remain black*/
+</style>
+</head>
+<!--snippet starts here-->
+<body style="background-color:#66A3FF;"><!--temporary-->
+
+<div class="wrapper">  
+	<div id="archive_section">
+		<section>
+			<article>
+				<h3>Archive</h3>
+				<div id="archive_list">
+					<ul style="padding-left:20px;"><!--should i have place these contents in paragraph tags??-->
+						<li><span>APRIL 2011, Aenean nonummy he</span></li>
+						<li><span>MARCH 2011, Ut tellus dolor,dapibus entum.</span></li>
+						<li><span>MARCH 2011, sed ut perpiciatis un</span></li>
+						<li><span>JANUARY 2011, Ut tellus doloraps egtum.</span></li>
+						<li><span>DECEMBER 2010, Nean nonummy</span></li>
+						<li><span>NOVEMBER2010, Tellus doloraps egtolp</span></li>
+						<li><span>OCTOBER 2010, Potfot ellus doloraps</span></li>
+					</ul>
+				</div>
+				<div id="projects">
+					<h3>Most Popular Projects</h3>
+					<div id="projects_img"><!--check image padding and size-->
+						<div class="img"><img src="image/new_members.png"></div>
+						<div class="img"><img src="image/center_image.jpg"></div>
+						<div class="img"><img src="image/right_image.jpg"></div>
+						<div class="img"><img src="image/new_members.png"></div>
+						<div class="img"><img src="image/center_image.jpg"></div>
+						<div class="img"><img src="image/right_image.jpg"></div>
+					</div>
+				</div>
+			</article>
+		</section>
+	</div>
+</div>
+
+
+
+</body>
+</html><!--Howard Grant-->
